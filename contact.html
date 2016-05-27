@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title> Ron Cooper | Contact Info</title>
+			<link href='http://fonts.googleapis.com/css?family=Arimo:400,400italic|Josefin+Slab:400,600' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" href='css/main.css'>
+		</head>
+
+		<body>
+					
+				<header id="top" class="main-header container group">
+					<a id="backtotop"></a>
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="testimonials.html">Testimonials</a></li>
+							<li><a href="writing_tips.html">Writing Tips</a></li>
+							<li><a href="contact.html" class="selected">Contact</a></li>
+						</ul>			
+
+					</nav>
+					<a href="index.html"><img src="img/rcooper-logo-200px.png" id="logo" alt="logo for Ron Cooper Writer"></a>
+						
+				</header>	
+				<main role="main">
+					<div class="container">
+					<section class="contactForm ess">
+						<h1>How to reach me</h1>
+						<p><strong>Thanks for stopping by. Feel free to contact me via the form below, email, by phone or through social media.</strong></p>
+						<p><em>Fields marked with * are required.</em></p>		
+						<form action="html/contact.html" method="GET">	
+						<fieldset>	
+							<legend><span id="prospectDetails"></span><em>Your Contact Details</em></legend>
+							<label for="name">Name*:</label>
+								<input  type="text" id="name" name="prospect_name" placeholder="John Q. Public" class="validated" required>
+							<label for="mail">Email*:</label>
+								<input type="email" id="mail" name="prospect_email" placeholder="johnq@public.com" class="validated" required>
+							<label for="phone">Phone number:</label>
+								<input type="tel" id="phone" name="prospect_phone_number" placeholder="(555) 123-4567">
+						</fieldset>
+						<fieldset>	
+							<legend><span id="prospectInterest"></span><em>How may I help you?</em></legend>
+
+							<label for="interest">Area of Interest*:</label>
+								<select id="interest" name="prospect_interest" class="validated" required>
+									<option value="">Please select</option>
+									<optgroup label="Editing">
+										<option value="line">Copy Editing</option>
+									</optgroup>	
+									<optgroup label="Media Relations Consulting">
+										<option value="press_releases">Press Releases</option>
+										<option value="strategy">Strategy</option>
+									</optgroup>	
+									<optgroup label="Workshops/Coaching">
+										<option value="media_relations">Media Relations</option>
+										<option value="writing">Writing Skills</option>
+									</optgroup>	
+									<optgroup label="Writing">
+										<option value="articles">Articles</option>
+										<option value="ghostwriter">Ghostwriting</option>
+										<option value="speech">Speeches</option>
+										<option value="websiteCopy">Website Copy</option>
+									</optgroup>
+								</select>							
+							<label for="subject">Subject*:</label>
+								<input type="text" id="subject" name="prospect_subject" placeholder="Type of service needed?" class= "validated" required>
+							<label for="message">Message*:</label>
+								<textarea id="message" name="prospect_message" placeholder="Write your message here." class="validated" required rows="20" cols="50"></textarea>
+						</fieldset>
+					
+						<button type="submit">Submit</button>
+						<button type="reset">Reset</button>
+					</form>				
+				</section>
+				<aside class="contact-info container">
+					<ul class="social-icons"> 	
+						<li class="linkedin"><a href="http://www.linkedin.com/in/ronhcooper">ronhcooper</a></li>	
+						<li class="facebook"><a href="http://on.fb.me/worddoctor">worddoctor</a></li>
+						<li class="mail"><a href="mailto:Ron@roncooperwriter.com">Ron@roncooperwriter.com</a></li>
+						<li class="phone"><a href="tel:502-991-2104">502-991-2104</a></li>	
+					</ul>
+				</aside>
+			</div>	
+		</main>	
+			<footer class="container group ">
+					<p>&copy;2015. Ron Cooper &ndash; Writer, Editor, and Consultant.</p><br>
+						<div class="ft group">	
+							<a class="linkedin" href="http://www.linkedin.com/in/ronhcooper" alt="ronhcooper"></a>	
+							<a class="facebook" href="http://on.fb.me/worddoctor" alt="worddoctor"></a>
+							<a class="wordpress" href="http://blog.roncooperwriter.com" alt="The Word Doctor Blog"></a>
+							<a class="email" href="mailto:Ron@roncooperwriter.com" alt="Ron@roncooperwriter.com"></a>
+							<a class="phone" href="tel:502-991-2104" alt="502-991-2104"></a>
+						</div>	
+							<p><a href="#backtotop">Back to top</a></p>	
+			</footer>		
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			<script src="/js/script.js" type="text/javascript" charset="utf-8"></script>	
+		</body>	
+</html>		
